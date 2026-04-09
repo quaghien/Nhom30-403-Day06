@@ -8,7 +8,7 @@ Trợ lý chat tư vấn xe VinFast (bản giả lập, độc lập với site 
 - **Core:** LangGraph trong `engine.py`, LLM & prompt trong `constants.py`, search thực qua Tavily trong `search.py` (cần API key trong secrets/env).
 
 ## Links
-- **Prototype (Link repo demo):** https://github.com/quaghien/Day06_VinFast_Demo (`streamlit run main.py` hoặc `streamlit run app.py` từ thư mục `demo/`)
+- **Prototype (Link repo demo):** https://github.com/quaghien/Day06_VinFast_Demo ( Chạy local: `streamlit run app.py` từ thư mục `demo/`)
 - **Knowledge / ngữ cảnh:** System prompt & guardrail trong `constants.py`; không có RAG vector DB trong bản này.
 - **Video demo (backup):** https://drive.google.com/file/d/1EgSRLUJHFSdCQl3Z53rwmaR6pkgSmxTv/view?usp=sharing
 
